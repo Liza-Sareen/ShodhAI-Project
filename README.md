@@ -86,19 +86,17 @@ Focused on clarity, clean code, and seamless full-stack integration.
 
 📁 Folder Structure
 shodh-a-code/
-│
-├── client/               # React Frontend
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── Home.js
-│   │   ├── ContestPage.js
-│   │   └── ProblemPage.js
-│   └── package.json
-│
-└── server/               # Node.js Backend
-    ├── index.js
-    ├── contestsData.json
-    └── package.json
+client/               # React Frontend
+src/
+App.js
+Home.js
+ContestPage.js
+ProblemPage.js
+package.json
+server              # Node.js Backend
+index.js
+contestsData.json
+  package.json
 
 # How to Run
 Start backend:
