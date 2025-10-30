@@ -1,0 +1,116 @@
+/* ==== GLOBAL THEME ==== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top left, #0f172a, #020617);
+  color: #f8fafc;
+  min-height: 100vh;
+}
+
+/* ==== NAVBAR ==== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar h1 {
+  color: #38bdf8;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e2e8f0;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+/* ==== HOME PAGE ==== */
+.home-container {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.home-container h2 {
+  font-size: 40px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.home-container p {
+  font-size: 18px;
+  color: #cbd5e1;
+}
+
+.contest-card {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  padding: 25px;
+  margin: 25px auto;
+  width: 70%;
+  max-width: 600px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contest-card:hover {
+  transform: translateY(-6px);
+  background: rgba(56, 189, 248, 0.15);
+}
+
+/* ==== PROBLEM PAGE ==== */
+.problem-container {
+  padding: 60px;
+}
+
+.problem-container h2 {
+  color: #38bdf8;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.problem-container pre {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 20px;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.problem-container button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #38bdf8;
+  color: #0f172a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.problem-container button:hover {
+  background-color: #7dd3fc;
+}
+
+/* ==== FOOTER ==== */
+.footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+  color: #64748b;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 60px;
+}
